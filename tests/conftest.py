@@ -17,4 +17,5 @@ def browser():
     # Return the WebDriver instance for setup
     yield cb
 
+    # Quit WebDriver instance for cleanup
     cb.quit()
