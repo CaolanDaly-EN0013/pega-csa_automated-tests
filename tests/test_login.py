@@ -3,7 +3,7 @@ These tests cover logging in to the Pega Sandbox environment.
 '''
 
 
-def test_login():
+def test_login(browser):
 
     # Given the Pega Sandbox login page is displayed
     # TODO
